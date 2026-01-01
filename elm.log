@@ -1,0 +1,1156 @@
+2026-01-01 21:51:49,729  root       handle_response DEBUG    Write: '7E8 04 41 0C 41 C2 \r\r>'
+2026-01-01 21:51:49,730  root       run             DEBUG    Received '010D1'
+2026-01-01 21:51:49,730  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:51:49,730  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:51:49,731  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 33</data>'
+2026-01-01 21:51:49,731  root       handle_response DEBUG    Write: '7E8 03 41 0D 33 \r\r>'
+2026-01-01 21:51:50,735  root       run             DEBUG    Received '010C1'
+2026-01-01 21:51:50,736  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:51:50,736  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:51:50,736  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 35 CB</data>'
+2026-01-01 21:51:50,736  root       handle_response DEBUG    Write: '7E8 04 41 0C 35 CB \r\r>'
+2026-01-01 21:51:50,737  root       run             DEBUG    Received '010D1'
+2026-01-01 21:51:50,737  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:51:50,737  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:51:50,737  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 00</data>'
+2026-01-01 21:51:50,737  root       handle_response DEBUG    Write: '7E8 03 41 0D 00 \r\r>'
+2026-01-01 21:51:51,742  root       run             DEBUG    Received '010C1'
+2026-01-01 21:51:51,742  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:51:51,742  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:51:51,742  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 14 46</data>'
+2026-01-01 21:51:51,743  root       handle_response DEBUG    Write: '7E8 04 41 0C 14 46 \r\r>'
+2026-01-01 21:51:51,744  root       run             DEBUG    Received '010D1'
+2026-01-01 21:51:51,744  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:51:51,744  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:51:51,745  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 44</data>'
+2026-01-01 21:51:51,745  root       handle_response DEBUG    Write: '7E8 03 41 0D 44 \r\r>'
+2026-01-01 21:51:52,751  root       run             DEBUG    Received '010C1'
+2026-01-01 21:51:52,751  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:51:52,751  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:51:52,751  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 12 87</data>'
+2026-01-01 21:51:52,752  root       handle_response DEBUG    Write: '7E8 04 41 0C 12 87 \r\r>'
+2026-01-01 21:51:52,752  root       run             DEBUG    Received '010D1'
+2026-01-01 21:51:52,752  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:51:52,752  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:51:52,752  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 5C</data>'
+2026-01-01 21:51:52,753  root       handle_response DEBUG    Write: '7E8 03 41 0D 5C \r\r>'
+2026-01-01 21:51:53,758  root       run             DEBUG    Received '010C1'
+2026-01-01 21:51:53,758  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:51:53,759  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:51:53,759  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 3B 2E</data>'
+2026-01-01 21:51:53,759  root       handle_response DEBUG    Write: '7E8 04 41 0C 3B 2E \r\r>'
+2026-01-01 21:51:53,760  root       run             DEBUG    Received '010D1'
+2026-01-01 21:51:53,760  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:51:53,760  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:51:53,760  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 1D</data>'
+2026-01-01 21:51:53,761  root       handle_response DEBUG    Write: '7E8 03 41 0D 1D \r\r>'
+2026-01-01 21:51:54,766  root       run             DEBUG    Received '010C1'
+2026-01-01 21:51:54,766  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:51:54,766  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:51:54,767  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 15 2A</data>'
+2026-01-01 21:51:54,767  root       handle_response DEBUG    Write: '7E8 04 41 0C 15 2A \r\r>'
+2026-01-01 21:51:54,767  root       run             DEBUG    Received '010D1'
+2026-01-01 21:51:54,768  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:51:54,768  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:51:54,768  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 72</data>'
+2026-01-01 21:51:54,768  root       handle_response DEBUG    Write: '7E8 03 41 0D 72 \r\r>'
+2026-01-01 21:51:55,773  root       run             DEBUG    Received '010C1'
+2026-01-01 21:51:55,773  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:51:55,773  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:51:55,773  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 09 F6</data>'
+2026-01-01 21:51:55,773  root       handle_response DEBUG    Write: '7E8 04 41 0C 09 F6 \r\r>'
+2026-01-01 21:51:55,774  root       run             DEBUG    Received '010D1'
+2026-01-01 21:51:55,774  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:51:55,774  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:51:55,774  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 48</data>'
+2026-01-01 21:51:55,774  root       handle_response DEBUG    Write: '7E8 03 41 0D 48 \r\r>'
+2026-01-01 21:51:56,779  root       run             DEBUG    Received '010C1'
+2026-01-01 21:51:56,780  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:51:56,780  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:51:56,780  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 23 82</data>'
+2026-01-01 21:51:56,780  root       handle_response DEBUG    Write: '7E8 04 41 0C 23 82 \r\r>'
+2026-01-01 21:51:56,781  root       run             DEBUG    Received '010D1'
+2026-01-01 21:51:56,781  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:51:56,781  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:51:56,782  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 20</data>'
+2026-01-01 21:51:56,782  root       handle_response DEBUG    Write: '7E8 03 41 0D 20 \r\r>'
+2026-01-01 21:51:57,788  root       run             DEBUG    Received '010C1'
+2026-01-01 21:51:57,788  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:51:57,789  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:51:57,789  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 26 25</data>'
+2026-01-01 21:51:57,789  root       handle_response DEBUG    Write: '7E8 04 41 0C 26 25 \r\r>'
+2026-01-01 21:51:57,790  root       run             DEBUG    Received '010D1'
+2026-01-01 21:51:57,790  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:51:57,790  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:51:57,790  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 29</data>'
+2026-01-01 21:51:57,790  root       handle_response DEBUG    Write: '7E8 03 41 0D 29 \r\r>'
+2026-01-01 21:51:58,796  root       run             DEBUG    Received '010C1'
+2026-01-01 21:51:58,796  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:51:58,796  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:51:58,796  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 18 9F</data>'
+2026-01-01 21:51:58,796  root       handle_response DEBUG    Write: '7E8 04 41 0C 18 9F \r\r>'
+2026-01-01 21:51:58,797  root       run             DEBUG    Received '010D1'
+2026-01-01 21:51:58,797  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:51:58,797  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:51:58,797  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 0E</data>'
+2026-01-01 21:51:58,797  root       handle_response DEBUG    Write: '7E8 03 41 0D 0E \r\r>'
+2026-01-01 21:51:59,803  root       run             DEBUG    Received '010C1'
+2026-01-01 21:51:59,803  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:51:59,803  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:51:59,803  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 13 FB</data>'
+2026-01-01 21:51:59,804  root       handle_response DEBUG    Write: '7E8 04 41 0C 13 FB \r\r>'
+2026-01-01 21:51:59,804  root       run             DEBUG    Received '010D1'
+2026-01-01 21:51:59,804  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:51:59,804  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:51:59,804  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 0A</data>'
+2026-01-01 21:51:59,805  root       handle_response DEBUG    Write: '7E8 03 41 0D 0A \r\r>'
+2026-01-01 21:52:00,810  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:00,811  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:00,811  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:00,811  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 3F 7A</data>'
+2026-01-01 21:52:00,811  root       handle_response DEBUG    Write: '7E8 04 41 0C 3F 7A \r\r>'
+2026-01-01 21:52:00,812  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:00,812  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:00,812  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:00,812  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 37</data>'
+2026-01-01 21:52:00,812  root       handle_response DEBUG    Write: '7E8 03 41 0D 37 \r\r>'
+2026-01-01 21:52:01,817  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:01,817  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:01,818  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:01,818  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 14 5F</data>'
+2026-01-01 21:52:01,818  root       handle_response DEBUG    Write: '7E8 04 41 0C 14 5F \r\r>'
+2026-01-01 21:52:01,818  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:01,818  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:01,818  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:01,818  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 27</data>'
+2026-01-01 21:52:01,819  root       handle_response DEBUG    Write: '7E8 03 41 0D 27 \r\r>'
+2026-01-01 21:52:02,824  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:02,824  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:02,824  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:02,824  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 00 00</data>'
+2026-01-01 21:52:02,825  root       handle_response DEBUG    Write: '7E8 04 41 0C 00 00 \r\r>'
+2026-01-01 21:52:02,825  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:02,825  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:02,825  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:02,826  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 33</data>'
+2026-01-01 21:52:02,826  root       handle_response DEBUG    Write: '7E8 03 41 0D 33 \r\r>'
+2026-01-01 21:52:03,832  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:03,832  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:03,832  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:03,832  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 41 C2</data>'
+2026-01-01 21:52:03,833  root       handle_response DEBUG    Write: '7E8 04 41 0C 41 C2 \r\r>'
+2026-01-01 21:52:03,833  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:03,833  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:03,833  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:03,833  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 00</data>'
+2026-01-01 21:52:03,833  root       handle_response DEBUG    Write: '7E8 03 41 0D 00 \r\r>'
+2026-01-01 21:52:04,838  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:04,839  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:04,839  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:04,839  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 35 CB</data>'
+2026-01-01 21:52:04,839  root       handle_response DEBUG    Write: '7E8 04 41 0C 35 CB \r\r>'
+2026-01-01 21:52:04,840  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:04,840  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:04,840  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:04,840  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 44</data>'
+2026-01-01 21:52:04,840  root       handle_response DEBUG    Write: '7E8 03 41 0D 44 \r\r>'
+2026-01-01 21:52:05,846  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:05,846  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:05,846  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:05,846  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 14 46</data>'
+2026-01-01 21:52:05,847  root       handle_response DEBUG    Write: '7E8 04 41 0C 14 46 \r\r>'
+2026-01-01 21:52:05,847  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:05,848  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:05,848  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:05,848  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 5C</data>'
+2026-01-01 21:52:05,849  root       handle_response DEBUG    Write: '7E8 03 41 0D 5C \r\r>'
+2026-01-01 21:52:06,855  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:06,855  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:06,856  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:06,856  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 12 87</data>'
+2026-01-01 21:52:06,856  root       handle_response DEBUG    Write: '7E8 04 41 0C 12 87 \r\r>'
+2026-01-01 21:52:06,856  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:06,857  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:06,857  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:06,857  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 1D</data>'
+2026-01-01 21:52:06,857  root       handle_response DEBUG    Write: '7E8 03 41 0D 1D \r\r>'
+2026-01-01 21:52:07,862  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:07,862  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:07,862  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:07,863  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 3B 2E</data>'
+2026-01-01 21:52:07,863  root       handle_response DEBUG    Write: '7E8 04 41 0C 3B 2E \r\r>'
+2026-01-01 21:52:07,864  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:07,864  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:07,865  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:07,865  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 72</data>'
+2026-01-01 21:52:07,865  root       handle_response DEBUG    Write: '7E8 03 41 0D 72 \r\r>'
+2026-01-01 21:52:08,870  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:08,871  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:08,871  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:08,871  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 15 2A</data>'
+2026-01-01 21:52:08,871  root       handle_response DEBUG    Write: '7E8 04 41 0C 15 2A \r\r>'
+2026-01-01 21:52:08,872  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:08,872  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:08,872  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:08,872  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 48</data>'
+2026-01-01 21:52:08,872  root       handle_response DEBUG    Write: '7E8 03 41 0D 48 \r\r>'
+2026-01-01 21:52:09,877  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:09,878  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:09,878  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:09,878  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 09 F6</data>'
+2026-01-01 21:52:09,878  root       handle_response DEBUG    Write: '7E8 04 41 0C 09 F6 \r\r>'
+2026-01-01 21:52:09,879  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:09,879  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:09,879  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:09,879  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 20</data>'
+2026-01-01 21:52:09,879  root       handle_response DEBUG    Write: '7E8 03 41 0D 20 \r\r>'
+2026-01-01 21:52:10,885  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:10,885  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:10,885  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:10,886  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 23 82</data>'
+2026-01-01 21:52:10,886  root       handle_response DEBUG    Write: '7E8 04 41 0C 23 82 \r\r>'
+2026-01-01 21:52:10,887  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:10,887  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:10,887  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:10,887  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 29</data>'
+2026-01-01 21:52:10,887  root       handle_response DEBUG    Write: '7E8 03 41 0D 29 \r\r>'
+2026-01-01 21:52:11,892  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:11,892  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:11,892  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:11,892  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 26 25</data>'
+2026-01-01 21:52:11,893  root       handle_response DEBUG    Write: '7E8 04 41 0C 26 25 \r\r>'
+2026-01-01 21:52:11,893  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:11,893  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:11,894  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:11,894  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 0E</data>'
+2026-01-01 21:52:11,894  root       handle_response DEBUG    Write: '7E8 03 41 0D 0E \r\r>'
+2026-01-01 21:52:12,899  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:12,899  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:12,900  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:12,900  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 18 9F</data>'
+2026-01-01 21:52:12,900  root       handle_response DEBUG    Write: '7E8 04 41 0C 18 9F \r\r>'
+2026-01-01 21:52:12,900  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:12,900  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:12,900  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:12,900  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 0A</data>'
+2026-01-01 21:52:12,900  root       handle_response DEBUG    Write: '7E8 03 41 0D 0A \r\r>'
+2026-01-01 21:52:13,906  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:13,907  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:13,911  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:13,911  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 13 FB</data>'
+2026-01-01 21:52:13,912  root       handle_response DEBUG    Write: '7E8 04 41 0C 13 FB \r\r>'
+2026-01-01 21:52:13,912  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:13,912  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:13,912  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:13,913  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 37</data>'
+2026-01-01 21:52:13,913  root       handle_response DEBUG    Write: '7E8 03 41 0D 37 \r\r>'
+2026-01-01 21:52:14,919  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:14,919  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:14,919  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:14,919  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 3F 7A</data>'
+2026-01-01 21:52:14,919  root       handle_response DEBUG    Write: '7E8 04 41 0C 3F 7A \r\r>'
+2026-01-01 21:52:14,920  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:14,920  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:14,920  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:14,920  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 27</data>'
+2026-01-01 21:52:14,920  root       handle_response DEBUG    Write: '7E8 03 41 0D 27 \r\r>'
+2026-01-01 21:52:15,926  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:15,926  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:15,926  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:15,926  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 14 5F</data>'
+2026-01-01 21:52:15,927  root       handle_response DEBUG    Write: '7E8 04 41 0C 14 5F \r\r>'
+2026-01-01 21:52:15,928  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:15,928  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:15,928  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:15,928  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 33</data>'
+2026-01-01 21:52:15,928  root       handle_response DEBUG    Write: '7E8 03 41 0D 33 \r\r>'
+2026-01-01 21:52:16,934  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:16,934  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:16,934  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:16,934  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 00 00</data>'
+2026-01-01 21:52:16,935  root       handle_response DEBUG    Write: '7E8 04 41 0C 00 00 \r\r>'
+2026-01-01 21:52:16,935  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:16,935  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:16,935  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:16,935  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 00</data>'
+2026-01-01 21:52:16,935  root       handle_response DEBUG    Write: '7E8 03 41 0D 00 \r\r>'
+2026-01-01 21:52:17,940  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:17,941  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:17,941  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:17,941  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 41 C2</data>'
+2026-01-01 21:52:17,941  root       handle_response DEBUG    Write: '7E8 04 41 0C 41 C2 \r\r>'
+2026-01-01 21:52:17,941  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:17,941  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:17,942  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:17,942  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 44</data>'
+2026-01-01 21:52:17,942  root       handle_response DEBUG    Write: '7E8 03 41 0D 44 \r\r>'
+2026-01-01 21:52:18,947  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:18,947  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:18,947  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:18,947  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 35 CB</data>'
+2026-01-01 21:52:18,948  root       handle_response DEBUG    Write: '7E8 04 41 0C 35 CB \r\r>'
+2026-01-01 21:52:18,948  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:18,949  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:18,949  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:18,949  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 5C</data>'
+2026-01-01 21:52:18,949  root       handle_response DEBUG    Write: '7E8 03 41 0D 5C \r\r>'
+2026-01-01 21:52:19,955  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:19,955  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:19,956  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:19,956  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 14 46</data>'
+2026-01-01 21:52:19,956  root       handle_response DEBUG    Write: '7E8 04 41 0C 14 46 \r\r>'
+2026-01-01 21:52:19,957  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:19,957  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:19,957  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:19,957  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 1D</data>'
+2026-01-01 21:52:19,957  root       handle_response DEBUG    Write: '7E8 03 41 0D 1D \r\r>'
+2026-01-01 21:52:20,962  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:20,963  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:20,967  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:20,967  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 12 87</data>'
+2026-01-01 21:52:20,967  root       handle_response DEBUG    Write: '7E8 04 41 0C 12 87 \r\r>'
+2026-01-01 21:52:20,968  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:20,968  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:20,968  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:20,969  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 72</data>'
+2026-01-01 21:52:20,969  root       handle_response DEBUG    Write: '7E8 03 41 0D 72 \r\r>'
+2026-01-01 21:52:21,975  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:21,976  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:21,976  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:21,976  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 3B 2E</data>'
+2026-01-01 21:52:21,976  root       handle_response DEBUG    Write: '7E8 04 41 0C 3B 2E \r\r>'
+2026-01-01 21:52:21,977  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:21,977  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:21,977  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:21,977  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 48</data>'
+2026-01-01 21:52:21,977  root       handle_response DEBUG    Write: '7E8 03 41 0D 48 \r\r>'
+2026-01-01 21:52:22,978  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:22,979  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:22,979  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:22,979  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 15 2A</data>'
+2026-01-01 21:52:22,979  root       handle_response DEBUG    Write: '7E8 04 41 0C 15 2A \r\r>'
+2026-01-01 21:52:22,980  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:22,980  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:22,980  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:22,980  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 20</data>'
+2026-01-01 21:52:22,980  root       handle_response DEBUG    Write: '7E8 03 41 0D 20 \r\r>'
+2026-01-01 21:52:23,984  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:23,984  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:23,985  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:23,985  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 09 F6</data>'
+2026-01-01 21:52:23,985  root       handle_response DEBUG    Write: '7E8 04 41 0C 09 F6 \r\r>'
+2026-01-01 21:52:23,985  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:23,985  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:23,986  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:23,986  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 29</data>'
+2026-01-01 21:52:23,986  root       handle_response DEBUG    Write: '7E8 03 41 0D 29 \r\r>'
+2026-01-01 21:52:24,991  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:24,991  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:24,991  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:24,992  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 23 82</data>'
+2026-01-01 21:52:24,992  root       handle_response DEBUG    Write: '7E8 04 41 0C 23 82 \r\r>'
+2026-01-01 21:52:24,992  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:24,993  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:24,993  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:24,993  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 0E</data>'
+2026-01-01 21:52:24,993  root       handle_response DEBUG    Write: '7E8 03 41 0D 0E \r\r>'
+2026-01-01 21:52:25,998  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:25,999  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:25,999  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:25,999  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 26 25</data>'
+2026-01-01 21:52:25,999  root       handle_response DEBUG    Write: '7E8 04 41 0C 26 25 \r\r>'
+2026-01-01 21:52:26,000  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:26,000  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:26,000  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:26,000  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 0A</data>'
+2026-01-01 21:52:26,000  root       handle_response DEBUG    Write: '7E8 03 41 0D 0A \r\r>'
+2026-01-01 21:52:27,004  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:27,005  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:27,005  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:27,005  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 18 9F</data>'
+2026-01-01 21:52:27,005  root       handle_response DEBUG    Write: '7E8 04 41 0C 18 9F \r\r>'
+2026-01-01 21:52:27,005  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:27,005  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:27,006  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:27,006  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 37</data>'
+2026-01-01 21:52:27,006  root       handle_response DEBUG    Write: '7E8 03 41 0D 37 \r\r>'
+2026-01-01 21:52:28,011  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:28,011  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:28,011  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:28,011  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 13 FB</data>'
+2026-01-01 21:52:28,011  root       handle_response DEBUG    Write: '7E8 04 41 0C 13 FB \r\r>'
+2026-01-01 21:52:28,012  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:28,012  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:28,012  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:28,012  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 27</data>'
+2026-01-01 21:52:28,012  root       handle_response DEBUG    Write: '7E8 03 41 0D 27 \r\r>'
+2026-01-01 21:52:29,018  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:29,018  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:29,022  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:29,023  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 3F 7A</data>'
+2026-01-01 21:52:29,023  root       handle_response DEBUG    Write: '7E8 04 41 0C 3F 7A \r\r>'
+2026-01-01 21:52:29,024  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:29,024  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:29,024  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:29,024  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 33</data>'
+2026-01-01 21:52:29,024  root       handle_response DEBUG    Write: '7E8 03 41 0D 33 \r\r>'
+2026-01-01 21:52:30,030  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:30,030  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:30,030  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:30,031  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 14 5F</data>'
+2026-01-01 21:52:30,031  root       handle_response DEBUG    Write: '7E8 04 41 0C 14 5F \r\r>'
+2026-01-01 21:52:30,031  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:30,031  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:30,031  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:30,031  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 00</data>'
+2026-01-01 21:52:30,032  root       handle_response DEBUG    Write: '7E8 03 41 0D 00 \r\r>'
+2026-01-01 21:52:31,038  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:31,038  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:31,039  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:31,039  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 00 00</data>'
+2026-01-01 21:52:31,039  root       handle_response DEBUG    Write: '7E8 04 41 0C 00 00 \r\r>'
+2026-01-01 21:52:31,040  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:31,040  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:31,040  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:31,040  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 44</data>'
+2026-01-01 21:52:31,040  root       handle_response DEBUG    Write: '7E8 03 41 0D 44 \r\r>'
+2026-01-01 21:52:32,045  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:32,046  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:32,046  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:32,046  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 41 C2</data>'
+2026-01-01 21:52:32,046  root       handle_response DEBUG    Write: '7E8 04 41 0C 41 C2 \r\r>'
+2026-01-01 21:52:32,046  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:32,046  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:32,046  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:32,046  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 5C</data>'
+2026-01-01 21:52:32,046  root       handle_response DEBUG    Write: '7E8 03 41 0D 5C \r\r>'
+2026-01-01 21:52:33,052  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:33,052  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:33,052  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:33,053  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 35 CB</data>'
+2026-01-01 21:52:33,053  root       handle_response DEBUG    Write: '7E8 04 41 0C 35 CB \r\r>'
+2026-01-01 21:52:33,054  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:33,054  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:33,054  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:33,055  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 1D</data>'
+2026-01-01 21:52:33,055  root       handle_response DEBUG    Write: '7E8 03 41 0D 1D \r\r>'
+2026-01-01 21:52:34,060  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:34,061  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:34,061  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:34,061  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 14 46</data>'
+2026-01-01 21:52:34,062  root       handle_response DEBUG    Write: '7E8 04 41 0C 14 46 \r\r>'
+2026-01-01 21:52:34,062  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:34,062  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:34,062  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:34,062  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 72</data>'
+2026-01-01 21:52:34,062  root       handle_response DEBUG    Write: '7E8 03 41 0D 72 \r\r>'
+2026-01-01 21:52:35,067  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:35,068  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:35,068  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:35,068  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 12 87</data>'
+2026-01-01 21:52:35,068  root       handle_response DEBUG    Write: '7E8 04 41 0C 12 87 \r\r>'
+2026-01-01 21:52:35,068  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:35,069  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:35,069  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:35,069  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 48</data>'
+2026-01-01 21:52:35,069  root       handle_response DEBUG    Write: '7E8 03 41 0D 48 \r\r>'
+2026-01-01 21:52:36,075  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:36,075  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:36,075  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:36,075  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 3B 2E</data>'
+2026-01-01 21:52:36,076  root       handle_response DEBUG    Write: '7E8 04 41 0C 3B 2E \r\r>'
+2026-01-01 21:52:36,077  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:36,077  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:36,077  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:36,077  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 20</data>'
+2026-01-01 21:52:36,077  root       handle_response DEBUG    Write: '7E8 03 41 0D 20 \r\r>'
+2026-01-01 21:52:37,083  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:37,084  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:37,084  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:37,084  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 15 2A</data>'
+2026-01-01 21:52:37,084  root       handle_response DEBUG    Write: '7E8 04 41 0C 15 2A \r\r>'
+2026-01-01 21:52:37,085  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:37,085  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:37,085  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:37,085  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 29</data>'
+2026-01-01 21:52:37,085  root       handle_response DEBUG    Write: '7E8 03 41 0D 29 \r\r>'
+2026-01-01 21:52:38,091  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:38,091  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:38,091  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:38,092  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 09 F6</data>'
+2026-01-01 21:52:38,092  root       handle_response DEBUG    Write: '7E8 04 41 0C 09 F6 \r\r>'
+2026-01-01 21:52:38,092  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:38,093  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:38,093  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:38,093  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 0E</data>'
+2026-01-01 21:52:38,093  root       handle_response DEBUG    Write: '7E8 03 41 0D 0E \r\r>'
+2026-01-01 21:52:39,098  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:39,099  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:39,099  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:39,099  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 23 82</data>'
+2026-01-01 21:52:39,099  root       handle_response DEBUG    Write: '7E8 04 41 0C 23 82 \r\r>'
+2026-01-01 21:52:39,099  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:39,099  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:39,099  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:39,099  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 0A</data>'
+2026-01-01 21:52:39,100  root       handle_response DEBUG    Write: '7E8 03 41 0D 0A \r\r>'
+2026-01-01 21:52:40,105  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:40,106  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:40,106  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:40,106  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 26 25</data>'
+2026-01-01 21:52:40,106  root       handle_response DEBUG    Write: '7E8 04 41 0C 26 25 \r\r>'
+2026-01-01 21:52:40,107  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:40,107  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:40,107  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:40,107  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 37</data>'
+2026-01-01 21:52:40,107  root       handle_response DEBUG    Write: '7E8 03 41 0D 37 \r\r>'
+2026-01-01 21:52:41,113  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:41,113  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:41,113  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:41,114  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 18 9F</data>'
+2026-01-01 21:52:41,114  root       handle_response DEBUG    Write: '7E8 04 41 0C 18 9F \r\r>'
+2026-01-01 21:52:41,114  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:41,114  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:41,115  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:41,115  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 27</data>'
+2026-01-01 21:52:41,115  root       handle_response DEBUG    Write: '7E8 03 41 0D 27 \r\r>'
+2026-01-01 21:52:42,120  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:42,121  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:42,121  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:42,121  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 13 FB</data>'
+2026-01-01 21:52:42,121  root       handle_response DEBUG    Write: '7E8 04 41 0C 13 FB \r\r>'
+2026-01-01 21:52:42,122  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:42,122  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:42,122  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:42,122  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 33</data>'
+2026-01-01 21:52:42,122  root       handle_response DEBUG    Write: '7E8 03 41 0D 33 \r\r>'
+2026-01-01 21:52:43,127  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:43,128  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:43,128  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:43,128  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 3F 7A</data>'
+2026-01-01 21:52:43,128  root       handle_response DEBUG    Write: '7E8 04 41 0C 3F 7A \r\r>'
+2026-01-01 21:52:43,128  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:43,128  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:43,129  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:43,129  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 00</data>'
+2026-01-01 21:52:43,129  root       handle_response DEBUG    Write: '7E8 03 41 0D 00 \r\r>'
+2026-01-01 21:52:44,134  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:44,135  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:44,135  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:44,135  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 14 5F</data>'
+2026-01-01 21:52:44,135  root       handle_response DEBUG    Write: '7E8 04 41 0C 14 5F \r\r>'
+2026-01-01 21:52:44,135  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:44,136  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:44,136  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:44,136  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 44</data>'
+2026-01-01 21:52:44,136  root       handle_response DEBUG    Write: '7E8 03 41 0D 44 \r\r>'
+2026-01-01 21:52:45,141  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:45,141  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:45,141  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:45,142  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 00 00</data>'
+2026-01-01 21:52:45,142  root       handle_response DEBUG    Write: '7E8 04 41 0C 00 00 \r\r>'
+2026-01-01 21:52:45,142  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:45,142  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:45,142  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:45,142  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 5C</data>'
+2026-01-01 21:52:45,143  root       handle_response DEBUG    Write: '7E8 03 41 0D 5C \r\r>'
+2026-01-01 21:52:46,148  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:46,148  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:46,148  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:46,148  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 41 C2</data>'
+2026-01-01 21:52:46,149  root       handle_response DEBUG    Write: '7E8 04 41 0C 41 C2 \r\r>'
+2026-01-01 21:52:46,149  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:46,149  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:46,149  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:46,149  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 1D</data>'
+2026-01-01 21:52:46,149  root       handle_response DEBUG    Write: '7E8 03 41 0D 1D \r\r>'
+2026-01-01 21:52:47,155  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:47,155  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:47,155  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:47,155  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 35 CB</data>'
+2026-01-01 21:52:47,156  root       handle_response DEBUG    Write: '7E8 04 41 0C 35 CB \r\r>'
+2026-01-01 21:52:47,156  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:47,156  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:47,156  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:47,156  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 72</data>'
+2026-01-01 21:52:47,156  root       handle_response DEBUG    Write: '7E8 03 41 0D 72 \r\r>'
+2026-01-01 21:52:48,162  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:48,162  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:48,162  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:48,162  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 14 46</data>'
+2026-01-01 21:52:48,163  root       handle_response DEBUG    Write: '7E8 04 41 0C 14 46 \r\r>'
+2026-01-01 21:52:48,163  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:48,163  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:48,163  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:48,163  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 48</data>'
+2026-01-01 21:52:48,164  root       handle_response DEBUG    Write: '7E8 03 41 0D 48 \r\r>'
+2026-01-01 21:52:49,166  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:49,166  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:49,170  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:49,170  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 12 87</data>'
+2026-01-01 21:52:49,171  root       handle_response DEBUG    Write: '7E8 04 41 0C 12 87 \r\r>'
+2026-01-01 21:52:49,171  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:49,171  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:49,171  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:49,171  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 20</data>'
+2026-01-01 21:52:49,171  root       handle_response DEBUG    Write: '7E8 03 41 0D 20 \r\r>'
+2026-01-01 21:52:50,177  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:50,177  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:50,177  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:50,178  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 3B 2E</data>'
+2026-01-01 21:52:50,178  root       handle_response DEBUG    Write: '7E8 04 41 0C 3B 2E \r\r>'
+2026-01-01 21:52:50,179  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:50,179  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:50,179  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:50,179  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 29</data>'
+2026-01-01 21:52:50,179  root       handle_response DEBUG    Write: '7E8 03 41 0D 29 \r\r>'
+2026-01-01 21:52:51,185  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:51,186  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:51,186  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:51,186  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 15 2A</data>'
+2026-01-01 21:52:51,186  root       handle_response DEBUG    Write: '7E8 04 41 0C 15 2A \r\r>'
+2026-01-01 21:52:51,187  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:51,187  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:51,187  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:51,187  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 0E</data>'
+2026-01-01 21:52:51,187  root       handle_response DEBUG    Write: '7E8 03 41 0D 0E \r\r>'
+2026-01-01 21:52:52,193  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:52,193  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:52,193  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:52,193  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 09 F6</data>'
+2026-01-01 21:52:52,194  root       handle_response DEBUG    Write: '7E8 04 41 0C 09 F6 \r\r>'
+2026-01-01 21:52:52,195  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:52,195  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:52,195  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:52,195  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 0A</data>'
+2026-01-01 21:52:52,195  root       handle_response DEBUG    Write: '7E8 03 41 0D 0A \r\r>'
+2026-01-01 21:52:53,201  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:53,201  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:53,201  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:53,201  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 23 82</data>'
+2026-01-01 21:52:53,202  root       handle_response DEBUG    Write: '7E8 04 41 0C 23 82 \r\r>'
+2026-01-01 21:52:53,203  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:53,203  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:53,203  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:53,203  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 37</data>'
+2026-01-01 21:52:53,203  root       handle_response DEBUG    Write: '7E8 03 41 0D 37 \r\r>'
+2026-01-01 21:52:54,209  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:54,209  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:54,209  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:54,209  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 26 25</data>'
+2026-01-01 21:52:54,209  root       handle_response DEBUG    Write: '7E8 04 41 0C 26 25 \r\r>'
+2026-01-01 21:52:54,210  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:54,210  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:54,210  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:54,210  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 27</data>'
+2026-01-01 21:52:54,210  root       handle_response DEBUG    Write: '7E8 03 41 0D 27 \r\r>'
+2026-01-01 21:52:55,216  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:55,216  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:55,216  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:55,217  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 18 9F</data>'
+2026-01-01 21:52:55,217  root       handle_response DEBUG    Write: '7E8 04 41 0C 18 9F \r\r>'
+2026-01-01 21:52:55,218  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:55,218  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:55,218  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:55,218  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 33</data>'
+2026-01-01 21:52:55,218  root       handle_response DEBUG    Write: '7E8 03 41 0D 33 \r\r>'
+2026-01-01 21:52:56,223  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:56,223  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:56,227  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:56,227  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 13 FB</data>'
+2026-01-01 21:52:56,227  root       handle_response DEBUG    Write: '7E8 04 41 0C 13 FB \r\r>'
+2026-01-01 21:52:56,228  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:56,228  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:56,228  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:56,228  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 00</data>'
+2026-01-01 21:52:56,228  root       handle_response DEBUG    Write: '7E8 03 41 0D 00 \r\r>'
+2026-01-01 21:52:57,234  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:57,234  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:57,234  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:57,234  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 3F 7A</data>'
+2026-01-01 21:52:57,234  root       handle_response DEBUG    Write: '7E8 04 41 0C 3F 7A \r\r>'
+2026-01-01 21:52:57,235  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:57,235  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:57,235  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:57,235  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 44</data>'
+2026-01-01 21:52:57,235  root       handle_response DEBUG    Write: '7E8 03 41 0D 44 \r\r>'
+2026-01-01 21:52:58,241  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:58,242  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:58,242  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:58,242  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 14 5F</data>'
+2026-01-01 21:52:58,242  root       handle_response DEBUG    Write: '7E8 04 41 0C 14 5F \r\r>'
+2026-01-01 21:52:58,243  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:58,243  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:58,243  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:58,243  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 5C</data>'
+2026-01-01 21:52:58,243  root       handle_response DEBUG    Write: '7E8 03 41 0D 5C \r\r>'
+2026-01-01 21:52:59,249  root       run             DEBUG    Received '010C1'
+2026-01-01 21:52:59,249  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:52:59,249  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:52:59,249  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 00 00</data>'
+2026-01-01 21:52:59,250  root       handle_response DEBUG    Write: '7E8 04 41 0C 00 00 \r\r>'
+2026-01-01 21:52:59,250  root       run             DEBUG    Received '010D1'
+2026-01-01 21:52:59,250  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:52:59,250  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:52:59,250  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 1D</data>'
+2026-01-01 21:52:59,250  root       handle_response DEBUG    Write: '7E8 03 41 0D 1D \r\r>'
+2026-01-01 21:53:00,255  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:00,256  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:00,256  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:00,256  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 41 C2</data>'
+2026-01-01 21:53:00,256  root       handle_response DEBUG    Write: '7E8 04 41 0C 41 C2 \r\r>'
+2026-01-01 21:53:00,257  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:00,257  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:00,257  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:00,258  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 72</data>'
+2026-01-01 21:53:00,258  root       handle_response DEBUG    Write: '7E8 03 41 0D 72 \r\r>'
+2026-01-01 21:53:01,264  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:01,264  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:01,264  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:01,264  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 35 CB</data>'
+2026-01-01 21:53:01,264  root       handle_response DEBUG    Write: '7E8 04 41 0C 35 CB \r\r>'
+2026-01-01 21:53:01,265  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:01,265  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:01,265  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:01,265  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 48</data>'
+2026-01-01 21:53:01,265  root       handle_response DEBUG    Write: '7E8 03 41 0D 48 \r\r>'
+2026-01-01 21:53:02,271  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:02,271  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:02,271  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:02,271  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 14 46</data>'
+2026-01-01 21:53:02,272  root       handle_response DEBUG    Write: '7E8 04 41 0C 14 46 \r\r>'
+2026-01-01 21:53:02,272  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:02,272  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:02,272  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:02,272  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 20</data>'
+2026-01-01 21:53:02,272  root       handle_response DEBUG    Write: '7E8 03 41 0D 20 \r\r>'
+2026-01-01 21:53:03,278  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:03,278  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:03,278  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:03,278  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 12 87</data>'
+2026-01-01 21:53:03,279  root       handle_response DEBUG    Write: '7E8 04 41 0C 12 87 \r\r>'
+2026-01-01 21:53:03,280  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:03,280  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:03,280  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:03,280  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 29</data>'
+2026-01-01 21:53:03,281  root       handle_response DEBUG    Write: '7E8 03 41 0D 29 \r\r>'
+2026-01-01 21:53:04,286  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:04,287  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:04,287  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:04,287  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 3B 2E</data>'
+2026-01-01 21:53:04,288  root       handle_response DEBUG    Write: '7E8 04 41 0C 3B 2E \r\r>'
+2026-01-01 21:53:04,288  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:04,288  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:04,288  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:04,288  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 0E</data>'
+2026-01-01 21:53:04,288  root       handle_response DEBUG    Write: '7E8 03 41 0D 0E \r\r>'
+2026-01-01 21:53:05,290  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:05,290  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:05,290  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:05,290  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 15 2A</data>'
+2026-01-01 21:53:05,290  root       handle_response DEBUG    Write: '7E8 04 41 0C 15 2A \r\r>'
+2026-01-01 21:53:05,291  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:05,291  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:05,291  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:05,291  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 0A</data>'
+2026-01-01 21:53:05,291  root       handle_response DEBUG    Write: '7E8 03 41 0D 0A \r\r>'
+2026-01-01 21:53:06,296  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:06,297  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:06,297  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:06,297  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 09 F6</data>'
+2026-01-01 21:53:06,297  root       handle_response DEBUG    Write: '7E8 04 41 0C 09 F6 \r\r>'
+2026-01-01 21:53:06,299  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:06,299  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:06,299  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:06,300  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 37</data>'
+2026-01-01 21:53:06,300  root       handle_response DEBUG    Write: '7E8 03 41 0D 37 \r\r>'
+2026-01-01 21:53:07,306  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:07,306  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:07,306  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:07,307  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 23 82</data>'
+2026-01-01 21:53:07,307  root       handle_response DEBUG    Write: '7E8 04 41 0C 23 82 \r\r>'
+2026-01-01 21:53:07,308  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:07,308  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:07,308  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:07,308  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 27</data>'
+2026-01-01 21:53:07,308  root       handle_response DEBUG    Write: '7E8 03 41 0D 27 \r\r>'
+2026-01-01 21:53:08,314  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:08,314  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:08,314  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:08,314  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 26 25</data>'
+2026-01-01 21:53:08,315  root       handle_response DEBUG    Write: '7E8 04 41 0C 26 25 \r\r>'
+2026-01-01 21:53:08,315  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:08,315  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:08,315  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:08,315  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 33</data>'
+2026-01-01 21:53:08,315  root       handle_response DEBUG    Write: '7E8 03 41 0D 33 \r\r>'
+2026-01-01 21:53:09,321  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:09,321  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:09,325  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:09,326  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 18 9F</data>'
+2026-01-01 21:53:09,326  root       handle_response DEBUG    Write: '7E8 04 41 0C 18 9F \r\r>'
+2026-01-01 21:53:09,327  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:09,327  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:09,327  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:09,327  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 00</data>'
+2026-01-01 21:53:09,327  root       handle_response DEBUG    Write: '7E8 03 41 0D 00 \r\r>'
+2026-01-01 21:53:10,333  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:10,333  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:10,334  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:10,334  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 13 FB</data>'
+2026-01-01 21:53:10,334  root       handle_response DEBUG    Write: '7E8 04 41 0C 13 FB \r\r>'
+2026-01-01 21:53:10,334  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:10,335  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:10,335  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:10,335  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 44</data>'
+2026-01-01 21:53:10,335  root       handle_response DEBUG    Write: '7E8 03 41 0D 44 \r\r>'
+2026-01-01 21:53:11,340  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:11,340  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:11,340  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:11,341  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 3F 7A</data>'
+2026-01-01 21:53:11,341  root       handle_response DEBUG    Write: '7E8 04 41 0C 3F 7A \r\r>'
+2026-01-01 21:53:11,341  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:11,341  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:11,342  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:11,342  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 5C</data>'
+2026-01-01 21:53:11,342  root       handle_response DEBUG    Write: '7E8 03 41 0D 5C \r\r>'
+2026-01-01 21:53:12,348  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:12,348  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:12,348  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:12,349  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 14 5F</data>'
+2026-01-01 21:53:12,349  root       handle_response DEBUG    Write: '7E8 04 41 0C 14 5F \r\r>'
+2026-01-01 21:53:12,349  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:12,349  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:12,349  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:12,349  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 1D</data>'
+2026-01-01 21:53:12,350  root       handle_response DEBUG    Write: '7E8 03 41 0D 1D \r\r>'
+2026-01-01 21:53:13,355  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:13,355  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:13,355  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:13,355  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 00 00</data>'
+2026-01-01 21:53:13,355  root       handle_response DEBUG    Write: '7E8 04 41 0C 00 00 \r\r>'
+2026-01-01 21:53:13,356  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:13,356  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:13,356  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:13,356  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 72</data>'
+2026-01-01 21:53:13,356  root       handle_response DEBUG    Write: '7E8 03 41 0D 72 \r\r>'
+2026-01-01 21:53:14,362  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:14,362  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:14,366  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:14,366  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 41 C2</data>'
+2026-01-01 21:53:14,367  root       handle_response DEBUG    Write: '7E8 04 41 0C 41 C2 \r\r>'
+2026-01-01 21:53:14,367  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:14,367  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:14,367  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:14,367  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 48</data>'
+2026-01-01 21:53:14,367  root       handle_response DEBUG    Write: '7E8 03 41 0D 48 \r\r>'
+2026-01-01 21:53:15,373  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:15,373  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:15,373  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:15,373  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 35 CB</data>'
+2026-01-01 21:53:15,374  root       handle_response DEBUG    Write: '7E8 04 41 0C 35 CB \r\r>'
+2026-01-01 21:53:15,374  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:15,374  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:15,374  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:15,374  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 20</data>'
+2026-01-01 21:53:15,374  root       handle_response DEBUG    Write: '7E8 03 41 0D 20 \r\r>'
+2026-01-01 21:53:16,379  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:16,379  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:16,380  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:16,380  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 14 46</data>'
+2026-01-01 21:53:16,380  root       handle_response DEBUG    Write: '7E8 04 41 0C 14 46 \r\r>'
+2026-01-01 21:53:16,381  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:16,381  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:16,382  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:16,382  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 29</data>'
+2026-01-01 21:53:16,382  root       handle_response DEBUG    Write: '7E8 03 41 0D 29 \r\r>'
+2026-01-01 21:53:17,388  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:17,388  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:17,388  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:17,389  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 12 87</data>'
+2026-01-01 21:53:17,389  root       handle_response DEBUG    Write: '7E8 04 41 0C 12 87 \r\r>'
+2026-01-01 21:53:17,389  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:17,389  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:17,389  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:17,389  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 0E</data>'
+2026-01-01 21:53:17,389  root       handle_response DEBUG    Write: '7E8 03 41 0D 0E \r\r>'
+2026-01-01 21:53:18,391  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:18,391  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:18,391  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:18,392  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 3B 2E</data>'
+2026-01-01 21:53:18,392  root       handle_response DEBUG    Write: '7E8 04 41 0C 3B 2E \r\r>'
+2026-01-01 21:53:18,392  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:18,392  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:18,392  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:18,392  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 0A</data>'
+2026-01-01 21:53:18,393  root       handle_response DEBUG    Write: '7E8 03 41 0D 0A \r\r>'
+2026-01-01 21:53:19,395  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:19,396  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:19,396  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:19,396  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 15 2A</data>'
+2026-01-01 21:53:19,396  root       handle_response DEBUG    Write: '7E8 04 41 0C 15 2A \r\r>'
+2026-01-01 21:53:19,397  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:19,397  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:19,397  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:19,397  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 37</data>'
+2026-01-01 21:53:19,397  root       handle_response DEBUG    Write: '7E8 03 41 0D 37 \r\r>'
+2026-01-01 21:53:20,403  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:20,403  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:20,403  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:20,403  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 09 F6</data>'
+2026-01-01 21:53:20,404  root       handle_response DEBUG    Write: '7E8 04 41 0C 09 F6 \r\r>'
+2026-01-01 21:53:20,405  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:20,405  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:20,405  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:20,405  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 27</data>'
+2026-01-01 21:53:20,405  root       handle_response DEBUG    Write: '7E8 03 41 0D 27 \r\r>'
+2026-01-01 21:53:21,408  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:21,408  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:21,409  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:21,409  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 23 82</data>'
+2026-01-01 21:53:21,409  root       handle_response DEBUG    Write: '7E8 04 41 0C 23 82 \r\r>'
+2026-01-01 21:53:21,410  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:21,410  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:21,410  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:21,410  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 33</data>'
+2026-01-01 21:53:21,410  root       handle_response DEBUG    Write: '7E8 03 41 0D 33 \r\r>'
+2026-01-01 21:53:22,416  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:22,416  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:22,417  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:22,417  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 26 25</data>'
+2026-01-01 21:53:22,417  root       handle_response DEBUG    Write: '7E8 04 41 0C 26 25 \r\r>'
+2026-01-01 21:53:22,418  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:22,418  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:22,418  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:22,418  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 00</data>'
+2026-01-01 21:53:22,418  root       handle_response DEBUG    Write: '7E8 03 41 0D 00 \r\r>'
+2026-01-01 21:53:23,424  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:23,424  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:23,424  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:23,425  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 18 9F</data>'
+2026-01-01 21:53:23,425  root       handle_response DEBUG    Write: '7E8 04 41 0C 18 9F \r\r>'
+2026-01-01 21:53:23,426  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:23,426  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:23,426  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:23,427  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 44</data>'
+2026-01-01 21:53:23,427  root       handle_response DEBUG    Write: '7E8 03 41 0D 44 \r\r>'
+2026-01-01 21:53:24,433  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:24,433  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:24,433  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:24,434  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 13 FB</data>'
+2026-01-01 21:53:24,434  root       handle_response DEBUG    Write: '7E8 04 41 0C 13 FB \r\r>'
+2026-01-01 21:53:24,434  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:24,434  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:24,435  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:24,435  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 5C</data>'
+2026-01-01 21:53:24,435  root       handle_response DEBUG    Write: '7E8 03 41 0D 5C \r\r>'
+2026-01-01 21:53:25,439  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:25,440  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:25,440  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:25,440  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 3F 7A</data>'
+2026-01-01 21:53:25,440  root       handle_response DEBUG    Write: '7E8 04 41 0C 3F 7A \r\r>'
+2026-01-01 21:53:25,440  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:25,440  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:25,441  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:25,441  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 1D</data>'
+2026-01-01 21:53:25,441  root       handle_response DEBUG    Write: '7E8 03 41 0D 1D \r\r>'
+2026-01-01 21:53:26,446  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:26,446  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:26,446  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:26,447  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 14 5F</data>'
+2026-01-01 21:53:26,447  root       handle_response DEBUG    Write: '7E8 04 41 0C 14 5F \r\r>'
+2026-01-01 21:53:26,448  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:26,448  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:26,448  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:26,448  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 72</data>'
+2026-01-01 21:53:26,448  root       handle_response DEBUG    Write: '7E8 03 41 0D 72 \r\r>'
+2026-01-01 21:53:27,455  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:27,455  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:27,455  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:27,456  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 00 00</data>'
+2026-01-01 21:53:27,456  root       handle_response DEBUG    Write: '7E8 04 41 0C 00 00 \r\r>'
+2026-01-01 21:53:27,456  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:27,456  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:27,456  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:27,457  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 48</data>'
+2026-01-01 21:53:27,457  root       handle_response DEBUG    Write: '7E8 03 41 0D 48 \r\r>'
+2026-01-01 21:53:28,462  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:28,463  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:28,467  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:28,467  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 41 C2</data>'
+2026-01-01 21:53:28,467  root       handle_response DEBUG    Write: '7E8 04 41 0C 41 C2 \r\r>'
+2026-01-01 21:53:28,468  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:28,468  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:28,468  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:28,468  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 20</data>'
+2026-01-01 21:53:28,468  root       handle_response DEBUG    Write: '7E8 03 41 0D 20 \r\r>'
+2026-01-01 21:53:29,475  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:29,475  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:29,475  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:29,475  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 35 CB</data>'
+2026-01-01 21:53:29,475  root       handle_response DEBUG    Write: '7E8 04 41 0C 35 CB \r\r>'
+2026-01-01 21:53:29,476  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:29,476  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:29,476  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:29,476  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 29</data>'
+2026-01-01 21:53:29,476  root       handle_response DEBUG    Write: '7E8 03 41 0D 29 \r\r>'
+2026-01-01 21:53:30,482  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:30,483  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:30,483  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:30,483  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 14 46</data>'
+2026-01-01 21:53:30,484  root       handle_response DEBUG    Write: '7E8 04 41 0C 14 46 \r\r>'
+2026-01-01 21:53:30,484  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:30,484  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:30,484  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:30,484  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 0E</data>'
+2026-01-01 21:53:30,484  root       handle_response DEBUG    Write: '7E8 03 41 0D 0E \r\r>'
+2026-01-01 21:53:31,490  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:31,490  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:31,490  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:31,490  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 12 87</data>'
+2026-01-01 21:53:31,491  root       handle_response DEBUG    Write: '7E8 04 41 0C 12 87 \r\r>'
+2026-01-01 21:53:31,492  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:31,492  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:31,492  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:31,492  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 0A</data>'
+2026-01-01 21:53:31,492  root       handle_response DEBUG    Write: '7E8 03 41 0D 0A \r\r>'
+2026-01-01 21:53:32,498  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:32,498  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:32,498  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:32,499  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 3B 2E</data>'
+2026-01-01 21:53:32,499  root       handle_response DEBUG    Write: '7E8 04 41 0C 3B 2E \r\r>'
+2026-01-01 21:53:32,499  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:32,500  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:32,500  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:32,500  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 37</data>'
+2026-01-01 21:53:32,500  root       handle_response DEBUG    Write: '7E8 03 41 0D 37 \r\r>'
+2026-01-01 21:53:33,505  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:33,506  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:33,510  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:33,510  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 15 2A</data>'
+2026-01-01 21:53:33,511  root       handle_response DEBUG    Write: '7E8 04 41 0C 15 2A \r\r>'
+2026-01-01 21:53:33,511  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:33,511  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:33,511  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:33,511  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 27</data>'
+2026-01-01 21:53:33,511  root       handle_response DEBUG    Write: '7E8 03 41 0D 27 \r\r>'
+2026-01-01 21:53:34,516  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:34,517  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:34,517  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:34,517  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 09 F6</data>'
+2026-01-01 21:53:34,518  root       handle_response DEBUG    Write: '7E8 04 41 0C 09 F6 \r\r>'
+2026-01-01 21:53:34,518  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:34,518  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:34,518  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:34,518  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 33</data>'
+2026-01-01 21:53:34,518  root       handle_response DEBUG    Write: '7E8 03 41 0D 33 \r\r>'
+2026-01-01 21:53:35,524  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:35,525  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:35,525  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:35,525  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 23 82</data>'
+2026-01-01 21:53:35,525  root       handle_response DEBUG    Write: '7E8 04 41 0C 23 82 \r\r>'
+2026-01-01 21:53:35,525  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:35,525  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:35,525  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:35,526  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 00</data>'
+2026-01-01 21:53:35,526  root       handle_response DEBUG    Write: '7E8 03 41 0D 00 \r\r>'
+2026-01-01 21:53:36,530  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:36,531  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:36,531  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:36,531  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 26 25</data>'
+2026-01-01 21:53:36,531  root       handle_response DEBUG    Write: '7E8 04 41 0C 26 25 \r\r>'
+2026-01-01 21:53:36,532  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:36,532  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:36,532  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:36,532  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 44</data>'
+2026-01-01 21:53:36,532  root       handle_response DEBUG    Write: '7E8 03 41 0D 44 \r\r>'
+2026-01-01 21:53:37,538  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:37,538  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:37,538  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:37,539  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 18 9F</data>'
+2026-01-01 21:53:37,539  root       handle_response DEBUG    Write: '7E8 04 41 0C 18 9F \r\r>'
+2026-01-01 21:53:37,539  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:37,539  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:37,540  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:37,540  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 5C</data>'
+2026-01-01 21:53:37,540  root       handle_response DEBUG    Write: '7E8 03 41 0D 5C \r\r>'
+2026-01-01 21:53:38,544  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:38,545  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:38,545  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:38,545  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 13 FB</data>'
+2026-01-01 21:53:38,546  root       handle_response DEBUG    Write: '7E8 04 41 0C 13 FB \r\r>'
+2026-01-01 21:53:38,546  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:38,547  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:38,547  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:38,547  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 1D</data>'
+2026-01-01 21:53:38,547  root       handle_response DEBUG    Write: '7E8 03 41 0D 1D \r\r>'
+2026-01-01 21:53:39,550  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:39,550  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:39,551  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:39,551  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 3F 7A</data>'
+2026-01-01 21:53:39,551  root       handle_response DEBUG    Write: '7E8 04 41 0C 3F 7A \r\r>'
+2026-01-01 21:53:39,551  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:39,552  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:39,552  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:39,552  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 72</data>'
+2026-01-01 21:53:39,552  root       handle_response DEBUG    Write: '7E8 03 41 0D 72 \r\r>'
+2026-01-01 21:53:40,557  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:40,557  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:40,557  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:40,557  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 14 5F</data>'
+2026-01-01 21:53:40,558  root       handle_response DEBUG    Write: '7E8 04 41 0C 14 5F \r\r>'
+2026-01-01 21:53:40,558  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:40,558  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:40,559  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:40,559  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 48</data>'
+2026-01-01 21:53:40,559  root       handle_response DEBUG    Write: '7E8 03 41 0D 48 \r\r>'
+2026-01-01 21:53:41,564  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:41,565  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:41,565  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:41,565  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 00 00</data>'
+2026-01-01 21:53:41,565  root       handle_response DEBUG    Write: '7E8 04 41 0C 00 00 \r\r>'
+2026-01-01 21:53:41,565  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:41,565  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:41,566  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:41,566  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 20</data>'
+2026-01-01 21:53:41,566  root       handle_response DEBUG    Write: '7E8 03 41 0D 20 \r\r>'
+2026-01-01 21:53:42,572  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:42,572  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:42,572  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:42,572  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 41 C2</data>'
+2026-01-01 21:53:42,572  root       handle_response DEBUG    Write: '7E8 04 41 0C 41 C2 \r\r>'
+2026-01-01 21:53:42,573  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:42,573  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:42,573  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:42,573  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 29</data>'
+2026-01-01 21:53:42,573  root       handle_response DEBUG    Write: '7E8 03 41 0D 29 \r\r>'
+2026-01-01 21:53:43,579  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:43,579  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:43,579  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:43,579  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 35 CB</data>'
+2026-01-01 21:53:43,579  root       handle_response DEBUG    Write: '7E8 04 41 0C 35 CB \r\r>'
+2026-01-01 21:53:43,580  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:43,580  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:43,580  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:43,580  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 0E</data>'
+2026-01-01 21:53:43,580  root       handle_response DEBUG    Write: '7E8 03 41 0D 0E \r\r>'
+2026-01-01 21:53:44,585  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:44,586  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:44,586  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:44,586  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 14 46</data>'
+2026-01-01 21:53:44,586  root       handle_response DEBUG    Write: '7E8 04 41 0C 14 46 \r\r>'
+2026-01-01 21:53:44,586  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:44,586  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:44,586  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:44,586  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 0A</data>'
+2026-01-01 21:53:44,586  root       handle_response DEBUG    Write: '7E8 03 41 0D 0A \r\r>'
+2026-01-01 21:53:45,593  root       run             DEBUG    Received '010C1'
+2026-01-01 21:53:45,593  root       handle_request  DEBUG    Handling: '010C1', header '7E0', ECU '7E0'
+2026-01-01 21:53:45,593  root       handle_request  DEBUG    Description: Engine RPM, PID RPM (010C1)
+2026-01-01 21:53:45,593  root       handle_response DEBUG    Processing: '<header>7E8</header><size>04</size><data>41 0C 12 87</data>'
+2026-01-01 21:53:45,594  root       handle_response DEBUG    Write: '7E8 04 41 0C 12 87 \r\r>'
+2026-01-01 21:53:45,594  root       run             DEBUG    Received '010D1'
+2026-01-01 21:53:45,594  root       handle_request  DEBUG    Handling: '010D1', header '7E0', ECU '7E0'
+2026-01-01 21:53:45,594  root       handle_request  DEBUG    Description: Vehicle Speed, PID SPEED (010D1)
+2026-01-01 21:53:45,594  root       handle_response DEBUG    Processing: '<header>7E8</header><size>03</size><data>41 0D 37</data>'
+2026-01-01 21:53:45,594  root       handle_response DEBUG    Write: '7E8 03 41 0D 37 \r\r>'
