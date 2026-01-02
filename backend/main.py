@@ -12,7 +12,7 @@ connection = None
 
 def obd_reader():
     global running, connection
-    connection = obd.OBD("/dev/pts/5")
+    connection = obd.OBD("/dev/pts/4")
 
     if connection.status() == obd.OBDStatus.CAR_CONNECTED:
         print("Successful Connection")
