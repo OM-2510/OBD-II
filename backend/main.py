@@ -12,10 +12,10 @@ connection = None
 
 def obd_reader():
     global running, connection
-    connection = obd.OBD("/dev/pts/4")
+    connection = obd.OBD("COM4")
 
-    if connection.status() == obd.OBDStatus.CAR_CONNECTED:
-        print("Successful Connection")
+    if connection.is_connected():
+        print("Successful Connection✅")
 
         while running:
             try:
@@ -43,7 +43,7 @@ def obd_reader():
                     
     
     else:
-        print("OBD Connection Failed")
+        print("OBD Connection Failed❌")
         running = False
 
 
@@ -65,4 +65,4 @@ def handle_disconnect():
 
 if __name__ == '__main__':
     connection = obd.OBD() 
-    socketio.run(app, host='localhost', port=3000)
+    socketio.run(app, host='localhost', port=5000)
