@@ -1,68 +1,69 @@
-from flask import Flask, render_template
-from threading import Thread
-from time import sleep
+import eventlet
+eventlet.monkey_patch() # Allows for concurrency around python GIL
+
+from flask import Flask
 from flask_socketio import SocketIO
 import obd
 
 app = Flask(__name__)
-socketio = SocketIO(app, cors_allowed_origins="*")
+socketio = SocketIO(app, cors_allowed_origins="*", ping_timeout=60) # keeping sufficient ping so that the server stays live and does'nt suffer buggy and jittery UI
 
 running = False
 connection = None
 
 def obd_reader():
     global running, connection
-    connection = obd.OBD("COM4")
-
-    if connection.is_connected():
-        print("Successful Connection✅")
-
-        while running:
-            try:
-                def get_val(param):
-                    if(not param.is_null()):
-                        return param.value.magnitude
-                    else:
-                        return 0
-
-                rpm = connection.query(obd.commands.RPM)
-                speed = connection.query(obd.commands.SPEED)
-
-                data = {
-                    "RPM" : get_val(rpm),
-                    "SPEED" : get_val(speed)
-                }
-
-                socketio.emit('obd_data', data)
-
-                sleep(1)
-
-            except Exception as e:
-                print("Error retrieving data!")
-                running = False
-                    
+    print("Trying to connect with Vehicle ... ")
     
-    else:
-        print("OBD Connection Failed❌")
+    try:
+        if connection is None or not connection.is_connected():
+            connection = obd.OBD("COM4", fast=False, timeout=15) # waits 15 seconds before throwing up the error
+        
+        if connection.is_connected():
+            print("Successful connection with vehicle ✅")
+            while running:
+                r = connection.query(obd.commands.RPM)
+                s = connection.query(obd.commands.SPEED)
+                
+                payload = {
+                    "RPM": r.value.magnitude if not r.is_null() else 0,
+                    "SPEED": s.value.magnitude if not s.is_null() else 0
+                }
+                
+                socketio.emit('obd_data', payload)
+                # print(f"Sent: {payload}")
+                eventlet.sleep(0.05) # Using event.let because time.sleep causes issues with python GIL
+        else:
+            print("Failed conneciton with vehicle ❌")
+            running = False
+            
+    except Exception as e:
+        print(f"Connection error: {e}")
         running = False
-
 
 @socketio.on('connect')
 def handle_connect():
-    global running, connection
-    print("WebSocket Communication hot")
-
+    global running
+    print("Browser Chained 🔗")
     if not running:
         running = True
-        obd_thread = Thread(target = obd_reader)
-        obd_thread.start()
+        socketio.start_background_task(obd_reader)
 
 @socketio.on('disconnect')
 def handle_disconnect():
-    print("Websocket Connection down")
-    running = False
+    print("Browser Unlinked ⛓️‍💥")
+    print("Searching for Signal ... ")
+    socketio.start_background_task(shutdown)
+
+def shutdown():
+    eventlet.sleep(15)
+    if len(socketio.server.eio.sockets == 0):
+        global running
+        running = False
+        print("Server Down 🚩 ...")
+
 
 
 if __name__ == '__main__':
-    connection = obd.OBD() 
+    print("Server Live: http://localhost:5000")
     socketio.run(app, host='localhost', port=5000)
