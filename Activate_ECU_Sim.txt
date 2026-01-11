@@ -1,2 +1,0 @@
-//Activate virtual environment
-python3 -m elm -s car   //Run command
