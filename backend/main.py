@@ -24,10 +24,14 @@ def obd_reader():
             while running:
                 r = connection.query(obd.commands.RPM)
                 s = connection.query(obd.commands.SPEED)
+                c = connection.query(obd.commands.COOLANT_TEMP)
+                l = connection.query(obd.commands.ENGINE_LOAD)
                 
                 payload = {
                     "RPM": r.value.magnitude if not r.is_null() else 0,
-                    "SPEED": s.value.magnitude if not s.is_null() else 0
+                    "SPEED": s.value.magnitude if not s.is_null() else 0,
+                    "COOLANT_TEMP" : max(50, c.value.magnitude) if not c.is_null() else 50,
+                    "ENGINE_LOAD" : l.value.magnitude if not l.is_null() else 0
                 }
                 
                 socketio.emit('obd_data', payload)
@@ -57,7 +61,7 @@ def handle_disconnect():
 
 def shutdown():
     eventlet.sleep(15)
-    if len(socketio.server.eio.sockets == 0):
+    if len(socketio.server.eio.sockets) == 0:
         global running
         running = False
         print("Server Down 🚩 ...")
