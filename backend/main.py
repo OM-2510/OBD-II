@@ -1,15 +1,16 @@
 import eventlet
-eventlet.monkey_patch() # Allows for concurrency around python GIL
+eventlet.monkey_patch()
 
 from flask import Flask
 from flask_socketio import SocketIO
 import obd
 
 app = Flask(__name__)
-socketio = SocketIO(app, cors_allowed_origins="*", ping_timeout=60) # keeping sufficient ping so that the server stays live and does'nt suffer buggy and jittery UI
+socketio = SocketIO(app, cors_allowed_origins="*", ping_timeout=60) 
 
 running = False
 connection = None
+
 
 def obd_reader():
     global running, connection
@@ -17,26 +18,45 @@ def obd_reader():
     
     try:
         if connection is None or not connection.is_connected():
-            connection = obd.OBD("COM4", fast=False, timeout=15) # waits 15 seconds before throwing up the error
+            connection = obd.OBD("COM4", fast=False, timeout=15)
         
         if connection.is_connected():
             print("Successful connection with vehicle ✅")
+            max_maf = connection.query(obd.commands.MAF_MAX)
+
             while running:
-                r = connection.query(obd.commands.RPM)
-                s = connection.query(obd.commands.SPEED)
-                c = connection.query(obd.commands.COOLANT_TEMP)
-                l = connection.query(obd.commands.ENGINE_LOAD)
+                rpm = connection.query(obd.commands.RPM)
+                speed = connection.query(obd.commands.SPEED)
+                coolant_temp = connection.query(obd.commands.COOLANT_TEMP)
+                intake_air_temp = connection.query(obd.commands.INTAKE_TEMP) 
+                throttle_pos = connection.query(obd.commands.THROTTLE_POS)
+                fuel_level = connection.query(obd.commands.FUEL_LEVEL)
+                maf = connection.query(obd.commands.MAF)    
+                timing = connection.query(obd.commands.TIMING_ADVANCE)
+                eninge_load = connection.query(obd.commands.ENGINE_LOAD)
+                stft = connection.query(obd.commands.SHORT_FUEL_TRIM_1)
+                ltft = connection.query(obd.commands.LONG_FUEL_TRIM_1)
+
                 
+
                 payload = {
-                    "RPM": r.value.magnitude if not r.is_null() else 0,
-                    "SPEED": s.value.magnitude if not s.is_null() else 0,
-                    "COOLANT_TEMP" : max(50, c.value.magnitude) if not c.is_null() else 50,
-                    "ENGINE_LOAD" : l.value.magnitude if not l.is_null() else 0
+                    "RPM": rpm.value.magnitude if not rpm.is_null() else 0,
+                    "SPEED": speed.value.magnitude if not speed.is_null() else 0,
+                    "COOLANT_TEMP" : coolant_temp.value.magnitude if not coolant_temp.is_null() else None,
+                    "INTAKE_TEMP" : intake_air_temp.value.magnitude if not intake_air_temp.is_null() else None,
+                    "THROTTLE_POS" : throttle_pos.value.magnitude if not throttle_pos.is_null() else 0,
+                    "FUEL_LEVEL" : fuel_level.value.magnitude if not fuel_level.is_null() else None,
+                    "MAF"  : maf.value.magnitude/max_maf*100 if not maf.is_null() else 0,
+                    "TIMING_ADV" : timing.value.magnitude if not timing.is_null() else None,
+                    "ENGINE_LOAD" : eninge_load.value.magnitude if not eninge_load.is_null() else 0,
+                    "STFT" : stft.value.magnitude if not stft.is_null() else None,
+                    "LTFT" : ltft.value.magnitude if not ltft.is_null() else None,
+
+
                 }
                 
                 socketio.emit('obd_data', payload)
-                # print(f"Sent: {payload}")
-                eventlet.sleep(0.05) # Using event.let because time.sleep causes issues with python GIL
+                eventlet.sleep(0.05) 
         else:
             print("Failed conneciton with vehicle ❌")
             running = False

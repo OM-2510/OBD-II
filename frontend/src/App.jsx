@@ -1,102 +1,67 @@
 import { useState, useEffect } from "react";
 import { io } from "socket.io-client";
-import ReactSpeedometer from "react-d3-speedometer";
-import PowerandTorqueGauge from "./PowerandTorque";
-import ClutchSlipWarning from "./ClutchSlipWarning";
-import CoolantTemp from "./CoolantTemp";
+import LfaDash from "./LfaDash";
+import MID from "./MID";
 
 const socket = io("http://localhost:5000", {
   transports: ["websocket"],
 });
 
-export default function App(){
-    const [data, setData] = useState({
-        SPEED : 0,
-        RPM : 0,
-        COOLANT_TEMP : 50,
-        ENGINE_LOAD : 0
+export default function App() {
+  const [data, setData] = useState({
+    RPM:           6000,
+    SPEED:         220,
+    COOLANT_TEMP:  90,
+    INTAKE_TEMP:   23,
+    THROTTLE_POS:  80,
+    MAF:           3.5,
+    TIMING_ADV:    18,
+    ENGINE_LOAD:   12,
+    STFT:          1.2,
+    LTFT:          3.4,
+    FUEL_LEVEL:    60,
+    
+    INSTANT_FE:    15,
+    AVG_FE:        19,
+    TRIP_DIST:     167,
+  });
+
+  useEffect(() => {
+    socket.on('obd_data', (incoming) => {
+      setData(incoming);
     });
+    return () => socket.off('obd_data');
+  }, []);
 
-    useEffect(()=>{
-        console.log("Fetching data from backend from the frontend");
-        socket.on('obd_data', (data)=>{
-            setData(data);
-        })
+  return (
+    <div className="bg-black h-screen w-full flex items-center justify-center overflow-hidden font-sans">
+        <div className="pl-12 flex flex-row items-center justify-center scale-[0.55] sm:scale-75 lg:scale-100 xl:scale-150">
+          
+          <div className="relative z-10 shrink-0">
+              <LfaDash
+                  rpm={data.RPM}
+                  speed={data.SPEED}
+                  temp={data.COOLANT_TEMP}
+                  throttle={data.THROTTLE_POS}
+                  fuel={data.FUEL_LEVEL}
+                  inst_fe={data.INSTANT_FE}
+                  avg_fe={data.AVG_FE}
+                  trip_dist={data.TRIP_DIST}
+              />
+          </div>
 
-        return()=>{
-            socket.off('obd_data');
-        }
-    }, []);
+          <div className="relative z-0 pl-12 text-white">
+            <MID
+                coolant={data.COOLANT_TEMP}
+                iat={data.INTAKE_TEMP}
+                timingAdvance={data.TIMING_ADV}
+                stft={data.STFT}
+                ltft={data.LTFT}
+                engineLoad={data.ENGINE_LOAD}
+            />
+          </div>
 
-    let PEAK_TORQUE = 112;
-    let PEAK_HP = 82;
-    let CURR_TORQUE = data.ENGINE_LOAD==0?0:PEAK_TORQUE*data.ENGINE_LOAD/100;
-    let CURR_HP = CURR_TORQUE*data.RPM/7127;
-
-    return(
-        <div className="bg-black overflow-hidden justify-evenly items-center h-screen flex-col lg:px-10">
-            
-            <div className="lg:scale-100 lg:mt-0 -mt-8 scale-50 flex justify-center gap-45 items-center">
-                    <PowerandTorqueGauge 
-                        PEAK_HP = {PEAK_HP}
-                        PEAK_TORQUE = {PEAK_TORQUE}
-                        CURR_HP = {CURR_HP}
-                        CURR_TORQUE = {CURR_TORQUE}
-                    />
-
-            </div>
-            
-            <div className="lg:mt-70 lg:scale-100 lg:mx-0 -mx-16 -my-5 scale-85 flex justify-between items-center">
-                <div className="lg:scale-170 lg:ml-25">
-                    <ReactSpeedometer
-                        value = {data.SPEED}
-                        minValue = {0}
-                        maxValue = {200}
-                        segments= {20}
-                        maxSegmentLabels={10}
-                        needleColor = "#FF4500"
-                        segmentColors= {["#39FF14"]}
-                        needleTransition="easeLinear"
-                        ringWidth={10}
-                        textColor="#39FF14"
-                        currentValueText = {'km/h'}
-                        labelFontSize="18px"
-                        paddingVertical={30}
-                        paddingHorizontal={30}
-                    />
-                </div>
-                
-                <div className="scale-80 lg:scale-100 flex-col px-9 text-red-700 lg:w-120 lg:h-120 py-2 justify-center border-gray-700 border rounded-lg w-80 h-100">
-                    {/* <ClutchSlipWarning/> */} 
-                    <CoolantTemp
-                        COOLANT_TEMP = {data.COOLANT_TEMP}
-                    />
-                    
-
-                </div>
-
-                <div className="lg:scale-170 lg:mr-25">
-                    <ReactSpeedometer
-                        value = {data.RPM/1000}
-                        minValue = {0}
-                        maxValue = {8}
-                        segments= {8}
-                        maxSegmentLabels={8}
-                        needleColor = "#FF4500"
-                        segmentColors= {["#39FF14", "#39FF14", "#39FF14", "#39FF14", "#39FF14", "#39FF14", "#FF4500", "#FF4500"]}
-                        needleTransition="easeLinear"
-                        ringWidth={10}
-                        textColor="#39FF14"
-                        currentValueText = {'x1000 RPM'}
-                        labelFontSize="18px"
-                        paddingHorizontal={30}
-                        paddingVertical={30}
-                    />
-
-                </div>
-
-            </div>
-
-        </div>
-    )
+      </div>
+    </div>
+  );
 }
