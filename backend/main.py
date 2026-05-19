@@ -22,7 +22,6 @@ def obd_reader():
         
         if connection.is_connected():
             print("Successful connection with vehicle ✅")
-            max_maf = connection.query(obd.commands.MAF_MAX)
 
             while running:
                 rpm = connection.query(obd.commands.RPM)
@@ -46,7 +45,7 @@ def obd_reader():
                     "INTAKE_TEMP" : intake_air_temp.value.magnitude if not intake_air_temp.is_null() else None,
                     "THROTTLE_POS" : throttle_pos.value.magnitude if not throttle_pos.is_null() else 0,
                     "FUEL_LEVEL" : fuel_level.value.magnitude if not fuel_level.is_null() else None,
-                    "MAF"  : maf.value.magnitude/max_maf*100 if not maf.is_null() else 0,
+                    "MAF"  : maf.value.magnitude*100 if not maf.is_null() else 0,
                     "TIMING_ADV" : timing.value.magnitude if not timing.is_null() else None,
                     "ENGINE_LOAD" : eninge_load.value.magnitude if not eninge_load.is_null() else 0,
                     "STFT" : stft.value.magnitude if not stft.is_null() else None,
@@ -89,5 +88,5 @@ def shutdown():
 
 
 if __name__ == '__main__':
-    print("Server Live: http://localhost:5000")
-    socketio.run(app, host='localhost', port=5000)
+    print("Server Live: http://127.0.0.1:5000")
+    socketio.run(app, host='127.0.0.1', port=5000)
