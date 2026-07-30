@@ -11,9 +11,9 @@ export default function CoolantTemp({ COOLANT_TEMP }) {
     }
 
     return(
-        <div className={"flex items-center justify-between text-white"}>
-            <p className='lg:text-xl text-2xl'>Coolant Temp:</p>            
-            <p className={`lg:text-xl text-2xl ${getColor(COOLANT_TEMP)}`}> {COOLANT_TEMP}°C</p>
+        <div className={"flex items-center justify-between gap-2 text-white"}>
+            <p className='lg:text-xl text-base whitespace-nowrap'>COOLANT TEMP:</p>            
+            <p className={`lg:text-xl text-base ${getColor(COOLANT_TEMP)}`}>{COOLANT_TEMP}°C</p>
         </div>
     );
 }
