@@ -1,30 +1,19 @@
-import React from 'react';
-
-const getColor = (temp) => {
-    if (temp == null) return "text-gray-500";
+export default function CoolantTemp({ COOLANT_TEMP }) {
     
-    if (temp < 50) {
-        return "text-blue-500";       
-    } else if (temp < 85) {
-        return "text-yellow-500";     
-    } else if (temp < 110) {
-        return "text-green-500";      
-    } else {
-        return "text-red-500 animate-pulse font-bold"; 
+    function getColor(temp) {
+        if (temp < 70) {
+            return "text-green-500";
+        } else if (temp >= 70 && temp < 100) {
+            return "text-yellow-500";
+        } else {
+            return "text-red-500";
+        }
     }
-};
 
-export default function CoolantTemp({ temp = 50 }) {
-    return (
-        <div className="flex items-center justify-between text-white w-full">
-            <span className="text-gray-500 tracking-wide">
-                Coolant Temp
-            </span>            
-            <span className={`text-right ${getColor(temp)}`}>
-                {temp}
-                <span className="font-mono relative -top-1.5 text-base">°</span>
-                C
-            </span>
+    return(
+        <div className={"flex items-center justify-between text-white"}>
+            <p className='lg:text-xl text-2xl'>Coolant Temp:</p>            
+            <p className={`lg:text-xl text-2xl ${getColor(COOLANT_TEMP)}`}> {COOLANT_TEMP}°C</p>
         </div>
     );
 }
