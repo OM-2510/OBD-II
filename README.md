@@ -12,6 +12,7 @@ This project is actively under development. The current architecture successfull
 * **Hardware Interface (`pyOBD`):** A Python worker script interfaces with an ELM327 OBD-II adapter, polling the ECU for live PIDs (Parameter IDs) like RPM, Vehicle Speed, Coolant Temperature, and Engine Load.
 * **The WebSocket Bridge (Flask):** To achieve the sub-second latency required for live gauges, the system bypasses standard HTTP requests. A Flask server wraps the hardware script and broadcasts the telemetry data over active WebSockets.
 * **The Dynamic Frontend (React):** A React-based UI subscribes to the WebSocket stream, parsing the incoming JSON payloads to drive responsive, high-framerate digital gauges and data readouts.
+* **Active logging to Database (MongoDB):** The app actively logs the cars paramaters instances as .jsonl format with derived trip statistics at the end of the trip.
 
 ## 🔮 Future Roadmap (The AI & Performance Era)
 
