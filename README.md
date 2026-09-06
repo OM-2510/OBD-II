@@ -1,5 +1,8 @@
 # 🏎️ OBD-II Real-Time Telemetry & Diagnostic Dashboard
 
+<img width="1920" height="930" alt="Screenshot from 2026-08-14 23-53-12" src="https://github.com/user-attachments/assets/bf970a73-fd91-4c07-a30b-a585c36e54d2" />
+
+
 ## 📌 The Vision
 Modern vehicles generate massive amounts of diagnostic and performance data, but most of it is hidden behind a glowing "Check Engine" light. This project bridges the gap between raw hardware telemetry and intuitive software design. 
 
